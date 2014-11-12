@@ -1,1 +1,2 @@
-body{background-color:#fdfdfd;}
+body{background-color:#efefef;padding-top:70px;}
+@media screen and (max-width:767px){header div.navbar-collapse{float:none !important;}}@media screen and (min-width:768px){.pad{padding:1em;background-color:white;box-shadow:2px 2px 2px rgba(0, 0, 0, 0.2);}}
