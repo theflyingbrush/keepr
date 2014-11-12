@@ -1,0 +1,15 @@
+{
+  "name": "grunt",
+  "version": "0.0.1",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap":"3.0.0",
+    "jquery":"1.10.2",
+    "modernizr":""
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}

@@ -1,0 +1,29 @@
+!!!
+%html
+  %head
+    %title Keepr
+    = scripts
+    = styles
+  %body
+    %header
+      %nav.navbar.navbar-default.navbar-fixed-top
+        .container
+          %div.navbar-header
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            %a.navbar-brand{href:"/"} Keepr
+          %div.collapse.navbar-collapse.pull-right#main-nav-menu
+            %ul.nav.navbar-nav
+              %li
+                %a{href:"#"} Link
+              %li
+                %a{href:"#"} Link
+              %li
+                %a{href:"#"} Link
+              %li
+                %a{href:"#"} Link
+    = yield
