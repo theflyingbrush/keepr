@@ -2,4 +2,9 @@
 	.row
 		.col-md-12
 			.pad
-				INDEX
+				%h1 Patients
+				%ul
+					%li
+						%a{:href => '/doris'} Doris Smith
+					- ["Bert Ackland", "Thomas Reed", "Arthur Statten", "Peter Reckless", "Bob Simpkins"].each do |name|
+						%li= name

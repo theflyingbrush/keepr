@@ -1,2 +1,4 @@
 $ ()->
-	#console.log("HELLO")
+	$(".expand").on("click", ()->
+		$(".hide", $(this).parent()).toggleClass("hide")
+	)

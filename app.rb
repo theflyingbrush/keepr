@@ -23,3 +23,11 @@ end
 get "/" do
 	haml :index
 end
+
+get "/doris" do
+	haml :doris
+end
+
+get "/media" do
+	haml :media
+end
